@@ -1,0 +1,82 @@
+/* Remove the body-related fade-in CSS from your previous attempt */
+body {
+    /* Retain your existing body styles, but remove the opacity and transition properties */
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a new class for the elements you want to fade in sequentially */
+.fade-in-element {
+    opacity: 0; /* Starts transparent */
+    transition: opacity 2s ease-in-out; /* Defines the fade duration */
+}
+
+/* The final state when the class is added by JavaScript */
+.fade-in-element.is-visible {
+    opacity: 1;
+}
+
+
+
+body {
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 90px;
+    background-image: linear-gradient(0deg, beige, beige, deepskyblue); 
+}
+
+a {
+    padding: 15px 65px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: lightcoral;
+    border: 3px solid ;
+    font-weight: bold;
+    color: lightcyan;
+    margin-top: 50px;
+}
+
+section {
+    padding: 10px 10px;
+    background-color: deepskyblue;
+    margin-top: 0px;
+    margin: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    
+    display: inline-block;
+    background: whitesmoke;
+    padding: 0.7em;
+    margin: 10px;
+    border-radius: 15px;
+    border: 2px dashed skyblue;}
+
+h2 {
+    background-color: lightyellow;
+    border-radius: 15px;
+    border: 4px dashed deepskyblue;
+    margin: 30px;
+    padding: 10px ;
+}
+p {
+}
+
+h1 {
+    font-size: 70px;
+    margin: 50px;
+    padding: 20px 25px;
+    border-radius: 25px;
+    background-image: linear-gradient(55deg,
+        lightcoral, lightyellow, lightcoral);
+}
+
